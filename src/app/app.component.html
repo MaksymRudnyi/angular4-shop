@@ -3,5 +3,14 @@
     Welcome to {{title}}!!
   </h1>
 </div>
+<hr/>
+<p>Name: {{name}}</p>
+<p>Description: {{description}}</p>
+<p>price: {{price}}</p>
+isAvailable{{isAvailable}}
+<p>Is available:
+  <span *ngIf="isAvailable">yes</span>
+  <span *ngIf="!isAvailable">no</span>
+</p>
 
 
